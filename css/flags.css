@@ -1,7 +1,0 @@
-.flags {
-	display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    filter: drop-shadow(4px 4px 3px #232324);
-    padding-bottom: 2rem;
-}
