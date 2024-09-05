@@ -4767,6 +4767,11 @@ button.close {
 	perspective: 1000px;
 }
 
+.carousel .carousel-item  {
+	border-radius: 15px;
+	overflow: hidden;
+  }
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {

@@ -173,7 +173,7 @@ body {
 	font-size: 16px; /* 14px; */
 	line-height: 1.71429;
 	font-weight: 400;
-	color: #666; /*#9b9b9b;*/
+	color: #2c2c2c; /*#9b9b9b;*/
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
 	text-align: center;
@@ -5469,6 +5469,7 @@ textarea.form-input {
 	background-color: rgba(55, 55, 55, 0.39);
 	transition: .3s ease-out opacity;
 	pointer-events: none;
+	border-radius: 15px;
 }
 
 .project-data-content {
@@ -6850,7 +6851,7 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .bg-gray-100 {
-	background-color: #f2f3f8;
+	background-color: #e6e6e6;
 }
 
 .bg-gray-100:not([style*="background-"]) + .bg-gray-100:not([style*="background-"]) {
@@ -7502,6 +7503,7 @@ html:not(.lt-ie10) .not-animated {
 	text-decoration: none;
 	transition: .45s all ease-in-out;
 	transform: translate3d(0, 100px, 0);
+	border-radius: 15px;
 }
 
 .ui-to-top, .ui-to-top:focus, .ui-to-top:active, .ui-to-top.active {
@@ -14718,6 +14720,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	bottom: 0;
 	transform: translateY(0);
 	transition: .3s ease-out all;
+	border-radius: 15px;
 }
 
 .slick-slider-project-main .slick-arrow:before {
